@@ -48,7 +48,7 @@ Start the development server:
       
        npm run dev
 
-This will start the development server, and you can access the app in your browser at http://localhost:3000.
+This will start the development server, and you can access the app in your browser at http://localhost:5173.
 
 Use the app to increment and decrement the counter value, and observe the changes in real-time.
 
