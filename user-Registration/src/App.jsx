@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./App.css"
+import logo from "./instra-logo.png"
 
 function App() {
   const [isLogin,setisLogin] = useState(true)
@@ -12,7 +13,7 @@ function App() {
   return (
     <div className="main-container">
       <div className="form-container">
-        <img className="logo" src="https://freepngimg.com/save/69662-instagram-media-brand-social-logo-photography/1200x627" alt="Logo-image"></img>
+        <img className="logo" src= {logo}></img>
         <input hidden = {isLogin} type = "text" placeholder="Mobile Number or Email"></input>
         <input hidden = {isLogin} type = "text" placeholder="Full Name"></input>
         <input type = "text" placeholder="Phone Number,email or username"></input>
