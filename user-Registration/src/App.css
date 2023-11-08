@@ -1,12 +1,57 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 
 }
-main-container{
-    border: 2px solid red;
-} */
+
+
+.logo{
+    width: 300px;
+}
+
+
+.form-container{
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 440px;
+}
+
+.form-container input{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+
+}
+
+.form-container button{
+    padding: 6px 90px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 145, 255);   
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-radius:10px ;
+}
+
+.form-container span{
+    color: rgb(0, 145, 255);
+    font-size: large;
+}
